@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h1 className='text-red-800'>Hello World!!</h1>
+    <div className='overflow-hidden h-screen w-screen flex items-center justify-center text-2xl font-bold text-white'>
+      <h1>askdladdkfs;</h1>
     </div>
   )
 }
