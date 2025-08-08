@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from './Hero/Hero'
-import Services from '../Services/Service'
+import Services from './Services/Service'
+import Resume from './Resume/Resume'
 
 const Home = () => {
   return (
     <div className='overflow-hidden '>
       <Hero />
       <Services />
+      <Resume />
     </div>
   )
 }
