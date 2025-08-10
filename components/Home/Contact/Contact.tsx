@@ -39,19 +39,25 @@ const Contact = () => {
           </div>
           {/* social icons  */}
           <div className="flex items-center mt-8 space-x-3">
-            <a href={ContactData.facebook}
+            <a
+              href={ContactData.facebook}
+              target="_blank"
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer
             flex-col hover:bg-blue-800 transition-all duration-300 "
             >
               <FaFacebook className="text-white w-6 h-6" />
             </a>
-            <a href={ContactData.github}
+            <a
+              href={ContactData.github}
+              target="_blank"
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer
             flex-col hover:bg-green-800 transition-all duration-300 "
             >
               <GrGithub className="text-white w-6 h-6" />
             </a>
-            <a href={ContactData.linkedin}
+            <a
+              href={ContactData.linkedin}
+              target="_blank"
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer
             flex-col hover:bg-yellow-800 transition-all duration-300 "
             >
@@ -60,30 +66,38 @@ const Contact = () => {
           </div>
         </div>
         {/* form  */}
-        <div className="md:p-10 p-5 bg-[#131332] rounded-lg" data-aos="zoom-in" data-aos-anchor-placement="top-center">
-          <form action={`mailto:${ContactData.email}`} method="POST" encType="text/plain">
-          <input
-            type="text"
-            placeholder="Name"
-            className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-          />
-          <input
-            type="email"
-            placeholder="Email Address"
-            className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-          />
-          <input
-            type="number"
-            placeholder="Mobile Number"
-            className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
-          />
-          <textarea
-            placeholder="Your Message"
-            className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-[10rem]"
-          ></textarea>
-          <button className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">
-            Send Message
-          </button>
+        <div
+          className="md:p-10 p-5 bg-[#131332] rounded-lg"
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+        >
+          <form
+            action={`mailto:${ContactData.email}`}
+            method="POST"
+            encType="text/plain"
+          >
+            <input
+              type="text"
+              placeholder="Name"
+              className="px-4 py-3.5 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+            />
+            <input
+              type="email"
+              placeholder="Email Address"
+              className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+            />
+            <input
+              type="number"
+              placeholder="Mobile Number"
+              className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70"
+            />
+            <textarea
+              placeholder="Your Message"
+              className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/70 h-[10rem]"
+            ></textarea>
+            <button className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">
+              Send Message
+            </button>
           </form>
         </div>
       </div>
