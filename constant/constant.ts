@@ -196,3 +196,9 @@ export const SkillsList = [
     icon: FaUserTie,
   },
 ];
+
+export const ContactData = {
+  email : "mohammadsalameen.02@gmail.com",
+  phoneId : '+971 50 495 5284',
+  location: "Abu Dhabi, UAE",
+}
