@@ -11,6 +11,12 @@ import {
   SiTypescript,
 } from "react-icons/si";
 import {
+  FaChalkboardTeacher,
+  FaNodeJs,
+} from "react-icons/fa";
+import { MdOutlineChangeCircle, MdOutlineManageAccounts } from "react-icons/md";
+import { GiThink } from "react-icons/gi";
+import {
   FaPuzzlePiece,
   FaRegClock,
   FaCogs,
@@ -206,3 +212,48 @@ export const ContactData = {
   github: "https://github.com/mohammadsalameen",
   linkedin: "https://www.linkedin.com/in/mohammad-salameen-8a182630b/",
 };
+
+export const CertificationsList = [
+  {
+    id: 1,
+    name: "Problem Solving & Decision Making in the Workplace",
+    date: "Feb, 2025",
+    icon: FaBrain,
+  },
+  {
+    id: 2,
+    name: "Delegation, Coaching, and Mentoring Skills",
+    date: "Feb, 2025",
+    icon: FaChalkboardTeacher,
+  },
+  {
+    id: 3,
+    name: "90-hours React & NextJS Training",
+    date: "Apr, 2025",
+    icon: FaReact,
+  },
+  {
+    id: 4,
+    name: "Back End 'Node JS'",
+    date: "May, 2025",
+    icon: FaNodeJs,
+  },
+  {
+    id: 5,
+    name: "Driving Change through Impactful Communication",
+    date: "Aug, 2025",
+    icon: MdOutlineChangeCircle,
+  },
+  {
+    id: 6,
+    name: "Communicating with Clarity as a Manager",
+    date: "Aug, 2025",
+    icon: MdOutlineManageAccounts,
+  },
+  {
+    id: 7,
+    name: "Critical Thinking for More Effective Communication",
+    date: "Aug, 2025",
+    icon: GiThink,
+  },
+];

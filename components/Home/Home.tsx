@@ -8,6 +8,7 @@ import Skills from './Skills/Skills'
 import Contact from './Contact/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Certifications from './Certifications/Certifications'
 
 const Home = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const Home = () => {
       <Resume />
       <Projects />
       <Skills />
+      <Certifications />
       <Contact />
     </div>
   )
