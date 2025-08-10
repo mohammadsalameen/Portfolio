@@ -11,7 +11,11 @@ const Resume = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-white">
             My Work <span className="text-cyan-200">Experience</span>
           </h1>
-          <div className="mt-10">
+          <div
+            className="mt-10"
+            data-aos="zoom-in"
+            data-aos-anchor-placement="top-center"
+          >
             {WorkCard.map((card) => {
               return (
                 <ResumeCard
@@ -29,7 +33,12 @@ const Resume = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-white">
             My <span className="text-cyan-200">Education</span>
           </h1>
-          <div className="mt-10">
+          <div
+            className="mt-10"
+            data-aos="zoom-out"
+            data-aos-anchor-placement="top-center"
+            data-aos-delay="300"
+          >
             {EducationCard.map((card) => {
               return (
                 <ResumeCard

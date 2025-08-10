@@ -9,15 +9,15 @@ const Services = () => {
         — from responsive web design to full-stack web applications built with
         modern technologies.
       </p>
-      <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
-        <div>
+      <div  className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
+        <div data-aos='fade-right' data-aos-anchor-placement='top-center'>
           <ServiceCard
             icon="/images/s2.png"
             name="Web Development"
             description="Building responsive and dynamic websites using modern technologies like React, Next.js, and Node.js."
           />
         </div>
-        <div>
+        <div data-aos='fade-right' data-aos-anchor-placement='top-center' data-aos-delay='100'>
             <ServiceCard 
             icon = '/images/s2.png'
             name = 'IOT Development'

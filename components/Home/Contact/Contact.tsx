@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
         </div>
         {/* form  */}
-        <div className="md:p-10 p-5 bg-[#131332] rounded-lg">
+        <div className="md:p-10 p-5 bg-[#131332] rounded-lg" data-aos="zoom-in" data-aos-anchor-placement="top-center">
           <input
             type="text"
             placeholder="Name"

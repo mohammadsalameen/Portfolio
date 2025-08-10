@@ -8,7 +8,7 @@ const Projects = () => {
         A small selection of recent <br />
         <span className="text-cyan-300">projects</span>
       </h1>
-      <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16" data-aos="zoom-in" data-aos-anchor-placement="top-center">
         <Video
           src="/videos/v2v.mp4"
           type="video/mp4"
