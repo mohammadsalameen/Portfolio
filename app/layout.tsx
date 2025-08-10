@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ResponsiveNavbar from "@/components/Home/Navbar/ResponsiveNavbar";
+import Footer from "@/components/Footer/Footer";
 
 const font = Inter({
   weight : ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         <ResponsiveNavbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
