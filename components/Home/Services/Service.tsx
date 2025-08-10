@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div id="services" className="pt-16 pb-16">
       <p className="text-center text-gray-300 max-w-xl mx-auto lg:text-2xl font-bold mb-10">
         I offer a range of development services to help bring your ideas to life
         — from responsive web design to full-stack web applications built with

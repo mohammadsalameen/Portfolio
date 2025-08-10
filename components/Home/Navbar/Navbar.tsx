@@ -1,6 +1,5 @@
 'use client';
-import { NavLinks } from "@/constant/constant";
-import Link from "next/link";
+import { CV_Link, NavLinks } from "@/constant/constant";
 import React, { useEffect, useState } from "react";
 import { BiDownload } from "react-icons/bi";
 import { FaCode } from "react-icons/fa";
@@ -36,21 +35,21 @@ const Navbar = ({openNav} : IProps) => {
         <div className="hidden lg:flex items-center space-x-10">
           {NavLinks.map((link) => {
             return (
-              <Link
+              <a
                 key={link.id}
                 href={link.url}
                 className="text-base hover:text-cyan-300 text-white font-medium transition-all duration-200"
               >
-                <p>{link.label}</p>
-              </Link>
+                {link.label}
+              </a>
             );
           })}
         </div>
         <div className="flex items-center space-x-4">
-          <button className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2">
+          <a href={CV_Link} className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2">
             <BiDownload className="w-5 h-5" />
             <span>Download CV</span>
-          </button>
+          </a>
           <HiBars3BottomRight onClick={openNav} className="w-8 h-8 text-white cursor-pointer lg:hidden" />
         </div>
       </div>

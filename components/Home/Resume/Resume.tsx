@@ -4,7 +4,7 @@ import { EducationCard, WorkCard } from "@/constant/constant";
 
 const Resume = () => {
   return (
-    <div className="pt-20 pb-15">
+    <div id="resume" className="pt-20 pb-15">
       <div className="w[90%] sm:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Work Part  */}
         <div>

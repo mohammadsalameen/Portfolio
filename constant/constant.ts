@@ -23,40 +23,41 @@ import {
   FaUserTie,
 } from "react-icons/fa";
 
+export const CV_Link = "/cv.pdf";
 export const NavLinks = [
   {
     id: 1,
-    url: "#",
+    url: "#home",
     label: "Home",
   },
   {
     id: 2,
-    url: "#",
+    url: "#services",
     label: "Services",
   },
   {
     id: 3,
-    url: "#",
+    url: "#resume",
     label: "Resume",
   },
   {
     id: 4,
-    url: "#",
+    url: "#works",
     label: "Works",
   },
   {
     id: 5,
-    url: "#",
+    url: "#skills",
     label: "Skills",
   },
   {
     id: 6,
-    url: "#",
+    url: "#certifications",
     label: "Certifications",
   },
   {
     id: 7,
-    url: "#",
+    url: "#contact",
     label: "Contact",
   },
 ];
@@ -198,7 +199,10 @@ export const SkillsList = [
 ];
 
 export const ContactData = {
-  email : "mohammadsalameen.02@gmail.com",
-  phoneId : '+971 50 495 5284',
+  email: "mohammadsalameen.02@gmail.com",
+  phoneId: "+971 50 495 5284",
   location: "Abu Dhabi, UAE",
-}
+  facebook: "https://www.facebook.com/mohamad.salameen.2025",
+  github: "https://github.com/mohammadsalameen",
+  linkedin: "https://www.linkedin.com/in/mohammad-salameen-8a182630b/",
+};

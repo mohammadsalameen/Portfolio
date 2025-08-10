@@ -7,7 +7,7 @@ import { LiaLinkedin } from "react-icons/lia";
 
 const Contact = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div id="contact" className="pt-16 pb-16">
       <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-200 ">
@@ -39,28 +39,29 @@ const Contact = () => {
           </div>
           {/* social icons  */}
           <div className="flex items-center mt-8 space-x-3">
-            <div
+            <a href={ContactData.facebook}
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer
             flex-col hover:bg-blue-800 transition-all duration-300 "
             >
               <FaFacebook className="text-white w-6 h-6" />
-            </div>
-            <div
+            </a>
+            <a href={ContactData.github}
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer
             flex-col hover:bg-green-800 transition-all duration-300 "
             >
               <GrGithub className="text-white w-6 h-6" />
-            </div>
-            <div
+            </a>
+            <a href={ContactData.linkedin}
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center cursor-pointer
             flex-col hover:bg-yellow-800 transition-all duration-300 "
             >
               <LiaLinkedin className="text-white w-6 h-6" />
-            </div>
+            </a>
           </div>
         </div>
         {/* form  */}
         <div className="md:p-10 p-5 bg-[#131332] rounded-lg" data-aos="zoom-in" data-aos-anchor-placement="top-center">
+          <form action={`mailto:${ContactData.email}`} method="POST" encType="text/plain">
           <input
             type="text"
             placeholder="Name"
@@ -83,6 +84,7 @@ const Contact = () => {
           <button className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">
             Send Message
           </button>
+          </form>
         </div>
       </div>
     </div>
