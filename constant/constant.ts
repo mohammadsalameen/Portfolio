@@ -1,4 +1,4 @@
-import { FaCodepen, FaReact } from "react-icons/fa";
+import { FaCodepen, FaNetworkWired, FaReact, FaRobot } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io5";
 import { BiBadge } from "react-icons/bi";
@@ -10,10 +10,7 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import {
-  FaChalkboardTeacher,
-  FaNodeJs,
-} from "react-icons/fa";
+import { FaChalkboardTeacher, FaNodeJs } from "react-icons/fa";
 import { MdOutlineChangeCircle, MdOutlineManageAccounts } from "react-icons/md";
 import { GiThink } from "react-icons/gi";
 import {
@@ -255,5 +252,25 @@ export const CertificationsList = [
     name: "Critical Thinking for More Effective Communication",
     date: "Aug, 2025",
     icon: GiThink,
+  },
+  {
+    id: 8,
+    name: "DigComp Hub MOOC on the DigComp Framework (Mar, 2024)",
+    icon: FaProjectDiagram,
+  },
+  {
+    id: 9,
+    name: "Generative AI and Digital Resources (Mar, 2024)",
+    icon: FaBrain,
+  },
+  {
+    id: 10,
+    name: "Artificial Intelligence MOOC (Apr, 2024)",
+    icon: FaRobot,
+  },
+  {
+    id: 11,
+    name: "Internet of Things MOOC (Apr, 2024)",
+    icon: FaNetworkWired,
   },
 ];
