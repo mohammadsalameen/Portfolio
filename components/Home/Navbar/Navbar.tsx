@@ -1,26 +1,30 @@
-'use client';
+"use client";
 import { CV_Link, NavLinks } from "@/constant/constant";
 import React, { useEffect, useState } from "react";
 import { BiDownload } from "react-icons/bi";
 import { FaCode } from "react-icons/fa";
-import {HiBars3BottomRight } from "react-icons/hi2";
+import { HiBars3BottomRight } from "react-icons/hi2";
 
 interface IProps {
-  openNav : () => void;
+  openNav: () => void;
 }
 
-const Navbar = ({openNav} : IProps) => {
+const Navbar = ({ openNav }: IProps) => {
   const [navBg, setNavBg] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY >= 90) setNavBg(true);
+      if (window.scrollY >= 90) setNavBg(true);
       else setNavBg(false);
-    }
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className = {`transition-all ${navBg ? 'bg-[#0f142ed9] shadow-md' : 'fixed'} duration-200 h-[12vh] z-[10000] w-full fixed`}>
+    <div
+      className={`transition-all ${
+        navBg ? "bg-[#0f142ed9] shadow-md" : "fixed"
+      } duration-200 h-[12vh] z-[10000] w-full fixed`}
+    >
       <div className="flex items-center justify-between h-full w-[90%] mx-auto">
         {/* Logo */}
         <div className="flex items-center space-x-2">
@@ -46,11 +50,18 @@ const Navbar = ({openNav} : IProps) => {
           })}
         </div>
         <div className="flex items-center space-x-4">
-          <a href={CV_Link} className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2">
+          <a
+            href={CV_Link}
+            download="Mohammad Al-Salameen"
+            className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2"
+          >
             <BiDownload className="w-5 h-5" />
             <span>Download CV</span>
           </a>
-          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 text-white cursor-pointer lg:hidden" />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 text-white cursor-pointer lg:hidden"
+          />
         </div>
       </div>
     </div>

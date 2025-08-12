@@ -1,4 +1,10 @@
-import { FaCodepen, FaNetworkWired, FaReact, FaRobot } from "react-icons/fa";
+import {
+  FaCodepen,
+  FaLaptopCode,
+  FaNetworkWired,
+  FaReact,
+  FaRobot,
+} from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io5";
 import { BiBadge } from "react-icons/bi";
@@ -74,6 +80,13 @@ export const WorkCard = [
       "I have worked on various projects as a full-stack developer, utilizing technologies such as React, Node.js, and MongoDB to build dynamic web applications. My experience includes both front-end and back-end development, ensuring seamless integration and functionality across the stack.",
   },
   {
+    id: 99,
+    icon: FaLaptopCode,
+    role: "IT Personnel Developer",
+    description:
+      "Responsible for developing, customizing, and integrating Project Portfolio Management (PPM) software to meet organizational needs. This includes coding, testing, debugging, ensuring data integrity, optimizing system performance, and providing ongoing technical support. Actively monitoring industry trends to implement best practices and cutting-edge technologies.",
+  },
+  {
     id: 2,
     icon: FaReact,
     role: "Frontend Developer",
@@ -107,7 +120,7 @@ export const EducationCard = [
     id: 2,
     icon: FaReact,
     role: "Certificate in Frontend Developer",
-    date: "Dec 2024 - Jun 2025",
+    date: "Jan 2024 - Nov 2024",
   },
   {
     id: 3,
