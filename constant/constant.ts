@@ -1,4 +1,5 @@
 import {
+  FaClock,
   FaCodepen,
   FaLaptopCode,
   FaNetworkWired,
@@ -18,7 +19,6 @@ import {
 } from "react-icons/si";
 import { FaChalkboardTeacher, FaNodeJs } from "react-icons/fa";
 import { MdOutlineChangeCircle, MdOutlineManageAccounts } from "react-icons/md";
-import { GiThink } from "react-icons/gi";
 import {
   FaPuzzlePiece,
   FaRegClock,
@@ -31,6 +31,7 @@ import {
   FaBrain,
   FaUserTie,
 } from "react-icons/fa";
+import { GiThink } from "react-icons/gi";
 
 export const CV_Link = "/cv.pdf";
 export const NavLinks = [
@@ -225,6 +226,30 @@ export const ContactData = {
 
 export const CertificationsList = [
   {
+    id: 8,
+    name: "DigComp Hub MOOC on the DigComp Framework",
+    date: "Mar, 2024",
+    icon: FaProjectDiagram,
+  },
+  {
+    id: 9,
+    name: "Generative AI and Digital Resources",
+    date : "Mar, 2024",
+    icon: FaBrain,
+  },
+  {
+    id: 10,
+    name: "Artificial Intelligence MOOC",
+    date : "Apr, 2024",
+    icon: FaRobot,
+  },
+  {
+    id: 11,
+    name: "Internet of Things MOOC",
+    date : "Apr, 2024",
+    icon: FaNetworkWired,
+  },
+  {
     id: 1,
     name: "Problem Solving & Decision Making in the Workplace",
     date: "Feb, 2025",
@@ -267,23 +292,8 @@ export const CertificationsList = [
     icon: GiThink,
   },
   {
-    id: 8,
-    name: "DigComp Hub MOOC on the DigComp Framework (Mar, 2024)",
-    icon: FaProjectDiagram,
-  },
-  {
-    id: 9,
-    name: "Generative AI and Digital Resources (Mar, 2024)",
-    icon: FaBrain,
-  },
-  {
-    id: 10,
-    name: "Artificial Intelligence MOOC (Apr, 2024)",
-    icon: FaRobot,
-  },
-  {
-    id: 11,
-    name: "Internet of Things MOOC (Apr, 2024)",
-    icon: FaNetworkWired,
-  },
+    id: 12,
+    name: "Time Management",
+    icon: FaClock,
+  }
 ];
