@@ -2,6 +2,7 @@ import {
   FaAws,
   FaClock,
   FaCodepen,
+  FaDocker,
   FaLaptopCode,
   FaNetworkWired,
   FaReact,
@@ -309,4 +310,10 @@ export const CertificationsList = [
     date : "Sep, 2025",
     icon: GiFactory,
   },
+  {
+  id: 15,
+  name: "Docker for Developers",
+  date : "Sep, 2025",
+  icon: FaDocker,
+}
 ];
