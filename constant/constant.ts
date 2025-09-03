@@ -1,4 +1,5 @@
 import {
+  FaAws,
   FaClock,
   FaCodepen,
   FaLaptopCode,
@@ -31,7 +32,7 @@ import {
   FaBrain,
   FaUserTie,
 } from "react-icons/fa";
-import { GiThink } from "react-icons/gi";
+import { GiFactory, GiThink } from "react-icons/gi";
 
 export const CV_Link = "/cv.pdf";
 export const NavLinks = [
@@ -295,5 +296,17 @@ export const CertificationsList = [
     id: 12,
     name: "Time Management",
     icon: FaClock,
-  }
+  },
+  {
+    id: 13,
+    name: "AWS Certified Cloud Practitioner ",
+    date : "Aug, 2025",
+    icon: FaAws,
+  },
+  {
+    id: 14,
+    name: "Become a PLC Developer",
+    date : "Sep, 2025",
+    icon: GiFactory,
+  },
 ];
