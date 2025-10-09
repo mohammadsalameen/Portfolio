@@ -219,8 +219,8 @@ export const SkillsList = [
 
 export const ContactData = {
   email: "mohammadsalameen.02@gmail.com",
-  phoneId: "+971 50 495 5284",
-  location: "Abu Dhabi, UAE",
+  phoneId: "+972 56 854 1413",
+  location: "Hebron, Palestine",
   facebook: "https://www.facebook.com/mohamad.salameen.2025",
   github: "https://github.com/mohammadsalameen",
   linkedin: "https://www.linkedin.com/in/mohammad-salameen-8a182630b/",
