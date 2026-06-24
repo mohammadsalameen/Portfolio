@@ -7,11 +7,15 @@ import {
   FaNetworkWired,
   FaReact,
   FaRobot,
+  FaServer,
 } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
 import { IoLogoNodejs } from "react-icons/io5";
 import { BiBadge } from "react-icons/bi";
 import {
+  SiAngular,
+  SiDotnet,
+  SiElectron,
   SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
@@ -80,7 +84,7 @@ export const WorkCard = [
     icon: FaCodepen,
     role: "Full-Stack Developer",
     description:
-      "I have worked on various projects as a full-stack developer, utilizing technologies such as React, Node.js, and MongoDB to build dynamic web applications. My experience includes both front-end and back-end development, ensuring seamless integration and functionality across the stack.",
+      "Full-Stack Developer with experience in developing enterprise-level business solutions, including ERP Systems, POS Systems, and Building & Maintenance Management Systems. Skilled in Angular, React.js, ASP.NET Core, Node.js, SQL Server, and MongoDB. Experienced in designing scalable architectures, implementing business workflows, inventory management, user roles and permissions, maintenance operations, and real-time reporting. Passionate about building high-performance business applications that improve operational efficiency and user experience.",
   },
   {
     id: 99,
@@ -113,6 +117,12 @@ export const WorkCard = [
 ];
 
 export const EducationCard = [
+  {
+    id: 4,
+    icon: FaLaptopCode,
+    role: "Part-Time Full-Stack Developer at Spinel Tech",
+    date: "Nov 2025 - Present",
+  },
   {
     id: 1,
     icon: BiBadge,
@@ -163,6 +173,31 @@ export const SkillsList = [
     id: 6,
     name: "Typescript",
     icon: SiTypescript,
+  },
+  {
+    id: 18,
+    name: "Angular",
+    icon: SiAngular,
+  },
+  {
+    id: 19,
+    name: ".NET",
+    icon: SiDotnet,
+  },
+  {
+    id: 20,
+    name: "SQL Server",
+    icon: BsDatabase,
+  },
+  {
+    id: 21,
+    name: "Electron Web",
+    icon: SiElectron,
+  },
+  {
+    id: 22,
+    name: "Background Services",
+    icon: FaServer,
   },
 
   {
