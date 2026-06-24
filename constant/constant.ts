@@ -120,7 +120,7 @@ export const EducationCard = [
   {
     id: 4,
     icon: FaLaptopCode,
-    role: "Part-Time Full-Stack Developer at Spinel Tech",
+    role: "Full-Time Full-Stack Developer at Spinel Tech",
     date: "Nov 2025 - Present",
   },
   {
